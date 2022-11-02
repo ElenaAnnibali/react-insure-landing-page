@@ -14,7 +14,7 @@ root.render(
         body {
           margin: 0;
           font-family: 'Karla', Georgia, serif;
-          line-height: 28px;
+          line-height: 24px;
           background-color: #fff;
           color: #837d87;
         }

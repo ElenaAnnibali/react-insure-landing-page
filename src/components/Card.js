@@ -47,6 +47,52 @@ const cardStyle = css`
     height: 317px;
     left: 151px;
   }
+
+  @media (min-width: 376px) {
+    position: absolute;
+    width: 1111px;
+    height: 250px;
+    left: 164px;
+    top: 1632px;
+
+    h2 {
+      position: absolute;
+      width: 354px;
+      height: 88px;
+      left: 78px;
+      top: 72px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 44px;
+      /* or 110% */
+      text-align: left;
+      margin: 0;
+
+      color: #ffffff;
+    }
+
+    button {
+      position: absolute;
+      left: 880px;
+      top: 103px;
+      z-index: 2;
+    }
+
+    .bgWork {
+      background: url('/images/bg-pattern-how-we-work-desktop.svg');
+      background-repeat: no-repeat;
+
+      position: absolute;
+      left: 688px;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 424px;
+      height: 250px;
+      z-index: 1;
+    }
+  }
 `;
 
 export default function Card() {

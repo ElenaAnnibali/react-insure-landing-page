@@ -11,6 +11,14 @@ const headerStyle = css`
     position: absolute;
     left: 24px;
     top: 32px;
+
+    @media (min-width: 376px) {
+      position: absolute;
+      width: 112px;
+      height: 18px;
+      left: 168px;
+      top: 32px;
+    }
   }
 
   .menu {
@@ -20,6 +28,12 @@ const headerStyle = css`
     height: 32px;
     left: 320px;
     top: 24px;
+
+    @media (min-width: 376px) {
+      background-color: #fff;
+      width: 0;
+      height: 0;
+    }
   }
 `;
 
