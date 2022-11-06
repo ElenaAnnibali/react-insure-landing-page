@@ -9,6 +9,10 @@ const footerStyle = css`
   top: 2825px;
   background-color: #fafafa;
 
+  a {
+    cursor: pointer;
+  }
+
   .bgFooter {
     background: url('/images/bg-pattern-footer-mobile.svg');
     width: 100%;

@@ -38,6 +38,13 @@ const cardStyle = css`
     text-align: center;
     color: #fafafa;
     text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #fafafa;
+    color: #2d2640;
+    border: 2px solid #2d2640;
   }
 
   .bgWork {

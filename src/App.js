@@ -79,6 +79,13 @@ const appStyle = css`
       text-align: center;
       color: #fafafa;
       text-transform: uppercase;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #fafafa;
+      color: #2d2640;
+      border: 2px solid #2d2640;
     }
 
     .bgLeft {
@@ -155,7 +162,7 @@ const appStyle = css`
         width: 436px;
         height: 593px;
         left: 1002px;
-        top: 7px;
+        top: 0;
       }
 
       .button {
